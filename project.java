@@ -254,6 +254,7 @@ public class project {
         Bike car1 = new Bike("1", "Honda", "Livo", 60.0);
         Bike car2 = new Bike("2", "Hero", "Glamour", 60.0);
         Bike car3 = new Bike("3", "Bajaj", "Discover", 50.0);
+        Bike car4 = new Bike("4", "ktm", "Duke", 50.0);
         rentalSystem.addBike(car1);
         rentalSystem.addBike(car2);
         rentalSystem.addBike(car3);
