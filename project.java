@@ -251,13 +251,14 @@ public class project {
     public static void main(String[] args) {
         BikeRentalSystem rentalSystem = new BikeRentalSystem();
 
-        Bike car1 = new Bike("1", "Honda", "Livo", 60.0);
-        Bike car2 = new Bike("2", "Hero", "Glamour", 60.0);
-        Bike car3 = new Bike("3", "Bajaj", "Discover", 50.0);
-        Bike car4 = new Bike("4", "ktm", "Duke", 50.0);
-        rentalSystem.addBike(car1);
-        rentalSystem.addBike(car2);
-        rentalSystem.addBike(car3);
+        Bike bike1 = new Bike("1", "Honda", "Livo", 60.0);
+        Bike bike2 = new Bike("2", "Hero", "Glamour", 60.0);
+        Bike bike3 = new Bike("3", "Bajaj", "Discover", 50.0);
+        Bike bike4 = new Bike("4", "ktm", "Duke", 50.0);
+        rentalSystem.addBike(bike1);
+        rentalSystem.addBike(bike2);
+        rentalSystem.addBike(bike3);
+        rentalSystem.addBike(bike4);
 
         rentalSystem.menu();
     }
