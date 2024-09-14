@@ -255,10 +255,12 @@ public class project {
         Bike bike2 = new Bike("2", "Hero", "Glamour", 60.0);
         Bike bike3 = new Bike("3", "Bajaj", "Discover", 50.0);
         Bike bike4 = new Bike("4", "ktm", "Duke", 50.0);
+        Bike bike5 = new Bike("5", "Bajaj", "Avenger", 700);
         rentalSystem.addBike(bike1);
         rentalSystem.addBike(bike2);
         rentalSystem.addBike(bike3);
         rentalSystem.addBike(bike4);
+        rentalSystem.addBike(bike5);
 
         rentalSystem.menu();
     }
